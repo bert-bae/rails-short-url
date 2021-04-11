@@ -1,0 +1,13 @@
+<div id="root">
+  <h1>URL Shortener</h1>
+
+  <h3>Existing URLs</h3>
+  <% @shortUrls.each do |u| %>
+  <div class="shortened-url-container">
+    <p><%= u.url %></p>
+    <p><%= u.code %></p>
+  </div>
+  <% end %>
+
+  <%= link_to "Create URL", new_short_url_path %>
+</div>
