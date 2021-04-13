@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails URL minifier. Simple RoR project to practice.
 
-Things you may want to cover:
+1. Install ruby, rails, and other necessary dependencies.
+2. Run `bin/rails server`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Create, edit, and delete URLs. The shortened URLs can be used to redirect to other URLs.
