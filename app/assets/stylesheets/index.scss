@@ -33,3 +33,11 @@ textarea,
 input {
   box-sizing: border-box;
 }
+
+a {
+  box-sizing: content-box;
+}
+
+.action-container {
+  padding: 10px 0 5px 0;
+}

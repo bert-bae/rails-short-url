@@ -1,0 +1,18 @@
+<div class="shortened-url-container">
+  <p>
+    <strong>Mini URL: </strong>
+    <a href=<%= "#{request.protocol}#{request.host_with_port}/mini/#{u.code}" %>><%= "#{request.protocol}#{request.host_with_port}/mini/#{u.code}" %></a>
+  </p>
+
+  <p>
+    <strong>Redirects to: </strong>
+    <a href="<%= u.url %>"><%= u.url %></a>
+  </p>
+  <div class="action-container">
+    <%= link_to "Edit", edit_short_url_path(u), class: "link-action" %>
+    <%= link_to "Delete", short_url_path(u), class: "link-action", method: :delete,
+    data: {
+      confirm: "Are you sure?"
+    }%>
+  </div>
+</div>

@@ -20,3 +20,23 @@
     overflow: auto;
   }
 }
+
+.shortened-url-container {
+  height: fit-content;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  p {
+    margin: 3px 0;
+  }
+}
+
+.link-action {
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: grey;
+  margin: 3px 0;
+}
