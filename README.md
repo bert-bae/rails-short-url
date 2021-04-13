@@ -1,4 +1,4 @@
-# README
+# Rails URL Minifier
 
 Rails URL minifier. Simple RoR project to practice.
 
